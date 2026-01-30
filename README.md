@@ -5,11 +5,15 @@ Build & Run
 Using Make:
 ```bash
 cmake -G "MinGW Makefiles" -S . -B build
+```
+
 
 Using GCC:
 ```bash
 g++ -I./lib ./lib/LinkedList.cpp ./src/main.cpp -o ./bin/IHALinkedList.exe
+```
 
 Running:
 ```bash
 ./bin/IHALinkedList.exe
+```
