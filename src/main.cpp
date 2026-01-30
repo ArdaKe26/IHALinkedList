@@ -39,6 +39,10 @@ int main(){
 
 	std::cout << "Size of this Linked List is: " << list.getSize() << std::endl;
 
+	list.~LinkedList();
+	std::cout << "After removing the Linked List" << std::endl;
+	list.printList();
+
 
 	return 0;
 }
